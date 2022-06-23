@@ -20,11 +20,11 @@ spec:
         - containerPort: 80
         resources:
           requests:
-            memory: '50Mi'
-            cpu: '50m'
+            memory: '100Mi'
+            cpu: '100m'
           limits:
-            memory: '50Mi'
-            cpu: '50m'
+            memory: '200Mi'
+            cpu: '200m'
         securityContext:
           privileged: false
           #readOnlyRootFilesystem: false # guestbook neet to write to /var/run/apache2/apache2.pid
